@@ -21,7 +21,7 @@
         </Grid.ColumnDefinitions>
 
         <TextBlock Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" FontSize="50" FontFamily="Times New Roman" TextAlignment="Center">UserName</TextBlock>
-        <TextBox Grid.Row="0" Grid.Column="1" Padding="20" VerticalAlignment="Center" FontSize="50" PlaceholderText="Nhap Ten"/>
+        <TextBox Grid.Row="0" Grid.Column="1" Padding="20" VerticalAlignment="Center" FontSize="50"/>
         <TextBlock Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" FontSize="50" FontFamily="Times New Roman" TextAlignment="Center">PassWord</TextBlock>
         <PasswordBox Grid.Row="1" Grid.Column="1" Padding="20" VerticalAlignment="Center" FontSize="50"/>
         <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" VerticalAlignment="Center" HorizontalAlignment="Center">

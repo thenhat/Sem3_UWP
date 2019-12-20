@@ -8,7 +8,11 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <Grid >
+        <Grid.Background>
+            <ImageBrush Stretch="None" ImageSource="http://thuthuatphanmem.vn/uploads/2018/05/18/hinh-nen-may-tinh-hd-toi-yeu-am-nhac-dep_024424201.jpg" AlignmentY="Top" AlignmentX="Center"/>
+        </Grid.Background>
+
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="15*"/>
@@ -20,7 +24,7 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <AppBarButton Icon="Contact" Label="Login" Tag="Login" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" Tapped="Show_Tab"/>
+        <AppBarButton Icon="Contact" Label="Login" Tag="Login" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" Tapped="Show_Tab" Style="{ThemeResource AppBarButtonRevealStyle}"/>
         <AppBarButton Icon="AddFriend" Label="Register" Tag="Register" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" Tapped="Show_Tab"/>
         <AppBarButton Icon="AddFriend" Label="AddSong" Tag="AddSong" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Center" Tapped="Show_Tab"/>
         <AppBarButton Icon="MusicInfo" Label="PlayLists" Tag="PlayLists" Grid.Row="0" Grid.Column="3" HorizontalAlignment="Center" Tapped="Show_Tab"/>

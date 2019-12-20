@@ -25,11 +25,11 @@
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Margin="10">
                     <TextBlock VerticalAlignment="Center" FontSize="35" FontFamily="Times New Roman" Width="300">Thumbnail</TextBlock>
-                    <PasswordBox VerticalAlignment="Center" FontSize="35" Width="500"/>
+                    <TextBox VerticalAlignment="Center" FontSize="35" Width="500"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Margin="10">
                     <TextBlock VerticalAlignment="Center" FontSize="35" FontFamily="Times New Roman" Width="300">Link</TextBlock>
-                    <PasswordBox VerticalAlignment="Center" FontSize="35" Width="500"/>
+                    <TextBox VerticalAlignment="Center" FontSize="35" Width="500"/>
                 </StackPanel>
             </StackPanel>
         </ScrollViewer>

@@ -23,7 +23,7 @@
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Margin="10">
                     <TextBlock VerticalAlignment="Center" FontSize="35" FontFamily="Times New Roman" Width="300">PassWord</TextBlock>
-                    <TextBox VerticalAlignment="Center" FontSize="35" Width="500"/>
+                    <PasswordBox VerticalAlignment="Center" FontSize="35" Width="500"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Margin="10">
                     <TextBlock VerticalAlignment="Center" FontSize="35" FontFamily="Times New Roman" Width="300">Confirm PassWord</TextBlock>
@@ -31,15 +31,15 @@
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Margin="10">
                     <TextBlock VerticalAlignment="Center" FontSize="35" FontFamily="Times New Roman" Width="300">Address</TextBlock>
-                    <PasswordBox VerticalAlignment="Center" FontSize="35" Width="500"/>
+                    <TextBox VerticalAlignment="Center" FontSize="35" Width="500"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Margin="10">
                     <TextBlock VerticalAlignment="Center" FontSize="35" FontFamily="Times New Roman" Width="300">Phone</TextBlock>
-                    <PasswordBox VerticalAlignment="Center" FontSize="35" Width="500"/>
+                    <TextBox VerticalAlignment="Center" FontSize="35" Width="500"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Margin="10">
                     <TextBlock VerticalAlignment="Center" FontSize="35" FontFamily="Times New Roman" Width="300">Avatar</TextBlock>
-                    <PasswordBox VerticalAlignment="Center" FontSize="35" Width="500"/>
+                    <TextBox VerticalAlignment="Center" FontSize="35" Width="500"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Margin="10">
                     <TextBlock VerticalAlignment="Center" FontSize="35" FontFamily="Times New Roman" Width="300">Gender</TextBlock>
@@ -49,11 +49,11 @@
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Margin="10">
                     <TextBlock VerticalAlignment="Center" FontSize="35" FontFamily="Times New Roman" Width="300">Email</TextBlock>
-                    <PasswordBox VerticalAlignment="Center" FontSize="35" Width="500"/>
+                    <TextBox VerticalAlignment="Center" FontSize="35" Width="500"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Margin="10">
                     <TextBlock VerticalAlignment="Center" FontSize="35" FontFamily="Times New Roman" Width="300">Birthday</TextBlock>
-                    <PasswordBox VerticalAlignment="Center" FontSize="35" Width="500"/>
+                    <DatePicker Width="500"/>
                 </StackPanel>
             </StackPanel>
         </ScrollViewer>
